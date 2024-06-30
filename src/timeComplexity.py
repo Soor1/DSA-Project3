@@ -27,10 +27,20 @@ def factorial(n):
 def quicksort(arr):
     if len(arr) <= 1:
         return arr
+    
     pivot = arr[len(arr) // 2]
-    left = [x for x in arr if x < pivot]
-    middle = [x for x in arr if x == pivot]
-    right = [x for x in arr if x > pivot]
+    left = []
+    middle = []
+    right = []
+    
+    for x in arr:
+        if x < pivot:
+            left.append(x)
+        elif x == pivot:
+            middle.append(x)
+        else:
+            right.append(x)
+    
     return quicksort(left) + middle + quicksort(right)
 
 def heapify(heap, index, size):
