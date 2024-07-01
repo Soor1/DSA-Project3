@@ -8,3 +8,7 @@
 
 # Tips
 1. Install DB Browser for SQL Lite (makes working with SQL Lite db's super easy)
+
+
+# Database
+- https://data.cityofgainesville.org/Public-Safety/Crime-Responses/gvua-xt9q/data
