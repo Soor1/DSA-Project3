@@ -2,9 +2,11 @@
 
 1. Create a venv (mac instructions below, type in terminal)
   - `python3 -m venv venv`
-  - `source venv/bin/activat`
+  - `source venv/bin/activate`
 2. Pip install required dependecies
   - `pip3 install pandas`
+  - `pip3 install matplotlib`
+  - `pip3 install Flask`
 
 # Tips
 1. Install DB Browser for SQL Lite (makes working with SQL Lite db's super easy)
